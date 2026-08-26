@@ -1,14 +1,16 @@
-# Welcome to your Lovable project
+# Standoff 2 Showdown Quiz
+
+Создай современную интерактивную веб-игру-викторину по игре Standoff 2. Название игры: «Standoff 2 Quiz» Основная механика - В викторине ровно 5 вопросов. - Каждый вопрос имеет 4 варианта ответа. - Только один вариант правильный. - После выбора ответа сразу показывай, правильный он или неправильный. - После ответа должна появляться кнопка «Следующий вопрос». - Вверху показывай прогресс: «Вопрос 1 из 5», «Вопрос 2 из 5» и т.д. - В конце покажи итоговый экран: - количество правильных ответов; - результат в формате «4/5»; - короткую оценку игрока; - кнопку «Пройти ещё раз». Вопросы Используй эти 5 вопросов: 1. В каком году вышла Standoff 2? - 2015 - 2017 - 2019 - 2021 2. Как называется режим, в котором одна команда устанавливает бомбу, а другая должна её обезвредить? - Team Deathmatch - Arms Race - Competitive - Duel 3. Как называется внутриигровая валюта Standoff 2? - Coins - Gold - Gold Bars - Gold / голда 4. Что происходит, если игрок получает достаточно опыта для повышения уровня? - Его аккаунт удаляется - Повышается уровень аккаунта - Он теряет оружие - Карта меняется автоматически 5. Какой тип оружия относится к снайперским винтовкам? - AWM - P90 - AKR - MP7 Дизайн Сделай интерфейс в стиле современного игрового шутера: - тёмный фон; - красные и оранжевые акценты; - крупные игровые кнопки; - неоновое свечение; - карточки с вопросами; - плавные анимации; - эффект при выборе правильного/неправильного ответа; - адаптация под телефон и компьютер; - вертикальный мобильный интерфейс должен выглядеть особенно хорошо. Добавь стартовый экран с большой кнопкой «НАЧАТЬ ВИКТОРИНУ». Используй аккуратную современную типографику и атмосферу соревновательного FPS. Интерфейс должен выглядеть как полноценная игровая мини-викторина, а не как обычная HTML-форма. Важно: - игра должна работать полностью в браузере; - не требовать регистрации; - ответы перемешивать при каждом прохождении; - после завершения можно начать викторину заново; - добавь небольшие звуковые/визуальные эффекты при правильном и неправильном ответе, если это возможно; - сделай код чистым и готовым к запуску.
 
 This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/3c216ed1-7292-4444-90b9-aeb62e740cf6).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +22,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
