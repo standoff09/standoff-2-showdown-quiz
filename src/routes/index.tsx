@@ -21,7 +21,7 @@ export const Route = createFileRoute("/")({
       { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
-  component: QuizPage;
+  component: QuizPage,
 });
 
 type Stage = "start" | "play" | "result";
